@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -95,7 +97,25 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-aletheium-teal hover:bg-aletheium-teal/90 text-white font-medium px-6 py-3 rounded-md inline-flex items-center group transition duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-aletheium-navy hover:bg-aletheium-dark text-white font-medium px-6 py-3 rounded-md transition duration-200;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-aletheium-navy mb-4;
   }
 }
