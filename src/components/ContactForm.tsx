@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Mail, Phone, MessageSquare } from 'lucide-react';
 
@@ -60,8 +59,8 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-aletheium-navy">Email</h3>
-                  <a href="mailto:jenny@aletheium360.com" className="text-aletheium-gray hover:text-aletheium-teal transition-colors duration-200">
-                    jenny@aletheium360.com
+                  <a href="mailto:jenny@nytrogen.ca" className="text-aletheium-gray hover:text-aletheium-teal transition-colors duration-200">
+                    jenny@nytrogen.ca
                   </a>
                 </div>
               </div>

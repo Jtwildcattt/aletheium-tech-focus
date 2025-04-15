@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4 mt-4">
               <a 
-                href="mailto:jenny@aletheium360.com" 
+                href="mailto:jenny@nytrogen.ca" 
                 className="text-gray-300 hover:text-aletheium-teal transition duration-200"
                 aria-label="Email"
               >
@@ -64,7 +64,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <p className="text-gray-300 mb-2">
-              <strong>Email:</strong> jenny@aletheium360.com
+              <strong>Email:</strong> jenny@nytrogen.ca
             </p>
             <p className="text-gray-300 mb-4">
               <strong>Phone:</strong> +47 456 62 387
