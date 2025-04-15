@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, MessageSquare } from 'lucide-react';
+import { Mail, MessageSquare } from 'lucide-react';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -61,18 +61,6 @@ const ContactForm = () => {
                   <h3 className="text-lg font-medium text-aletheium-navy">Email</h3>
                   <a href="mailto:jenny@nytrogen.ca" className="text-aletheium-gray hover:text-aletheium-teal transition-colors duration-200">
                     jenny@nytrogen.ca
-                  </a>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="flex-shrink-0 bg-aletheium-teal text-white p-3 rounded-full mr-4">
-                  <Phone size={20} />
-                </div>
-                <div>
-                  <h3 className="text-lg font-medium text-aletheium-navy">Phone</h3>
-                  <a href="tel:+4745662387" className="text-aletheium-gray hover:text-aletheium-teal transition-colors duration-200">
-                    +47 456 62 387
                   </a>
                 </div>
               </div>

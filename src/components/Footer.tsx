@@ -1,6 +1,5 @@
-
 import { Link } from 'react-router-dom';
-import { Mail, Phone } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,13 +21,6 @@ const Footer = () => {
                 aria-label="Email"
               >
                 <Mail size={20} />
-              </a>
-              <a 
-                href="tel:+4745662387" 
-                className="text-gray-300 hover:text-aletheium-teal transition duration-200"
-                aria-label="Phone"
-              >
-                <Phone size={20} />
               </a>
             </div>
           </div>
@@ -65,9 +57,6 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <p className="text-gray-300 mb-2">
               <strong>Email:</strong> jenny@nytrogen.ca
-            </p>
-            <p className="text-gray-300 mb-4">
-              <strong>Phone:</strong> +47 456 62 387
             </p>
             <Link to="/contact" className="bg-aletheium-teal text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-opacity-90 transition duration-200 inline-block">
               Schedule a Consultation
