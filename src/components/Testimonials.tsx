@@ -19,7 +19,7 @@ const Testimonials = () => {
           
           <blockquote className="mt-4">
             <p className="text-lg md:text-xl text-aletheium-gray italic mb-6">
-              "Aletheium360's deep technical assessment gave us the confidence to move forward with our AI investment. Their ability to translate complex technology into clear business implications was invaluable to our decision-making process."
+              "When looking into different investment opportunities my go to expert when it comes to due diligence is Christoffer. Not only can he assess complex solutions quickly but he can also explain the reasons for his opinions in an understandable way. It has saved me time and given me opportunity to take wise decisions."
             </p>
             <footer className="flex items-center">
               <div className="bg-aletheium-navy text-white h-12 w-12 rounded-full flex items-center justify-center mr-4">
